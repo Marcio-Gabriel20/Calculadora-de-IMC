@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1F5EAF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #DC4500;
+    width: 35%;
+    height: 95%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 2px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo {
+    width: 100%;
+    height: 15%;
+    border-bottom: 4px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campos {
+    width: 90%;
+    height: 50px;
+    margin: 13px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    margin-left: 10px;
+    padding: 0px 4px;
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 98%;
+    height: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    opacity: .5;
+}
+
+#divResultado {
+    background-color: black;
+    width: 90%;
+    height: 180px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #f5814b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#buttons {
+    /*background-color: black;*/
+    width: 90%;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: transparent;
+    margin-bottom: 8px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcular {
+    background-color: black;
+    color: white;
+}
+
+.calcular:hover {
+    background-color: transparent;
+    border: 2px solid #1F5EAF;
+}
+
+.limpar {
+    background-color: transparent;
+    border: none;
+}
+
+.limpar:hover {
+    border: 2px solid white;
+}
